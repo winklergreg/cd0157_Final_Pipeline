@@ -11,7 +11,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
     - groups:
       - system:masters
-      rolearn: arn:aws:iam::879559838728:role/UdacityFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::879559838728:role/UdacityFlaskDeployCBKubestlRole
       username: build
 kind: ConfigMap
 metadata:
